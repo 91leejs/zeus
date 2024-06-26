@@ -9,7 +9,7 @@
     height: 113px;
     position: absolute;
     top: 0;
-    left: 17px;
+    left: 0;
     /* background-color: burlywood; */
 }
 
@@ -108,16 +108,17 @@
 
 .slide a img{}
 
+.gradient{
+    background-image: linear-gradient(#fff 0%,#fff 70%, #aaa 70% #aaa 100%);
+}
+
 .classic{
     width: 1200px;
     height: 761px;
     margin: 0 auto;
 }
 
-.gradient{
-    width: 100%;
-    background-image: linear-gradient(#fff 0%,#fff 70%, #aaa 70% #aaa 100%);
-}
+
 
 .classic h2{
     text-align: center;
@@ -461,11 +462,74 @@
     border-right: 1px solid lightgray;
 }
 
+/* end 영역 */
 
+#end{
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
 
+.end_inner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
 
+.end_menu{
+    float: left;
+    font-size: 12px;
+}
 
+.end_menu li{
+    display: inline-block;
+    padding-right: 15px;
+    padding-bottom: 15px;
 
+}
 
+.end_menu li a{
+    display: block
+    padding: 10px;
+}
 
+.end_tel{
+    float: right;
+    font-size: 12px;
+    margin-right: 280px;
+}
+
+.hana{
+    clear: both;
+}
+
+.hana li, .address li, .data li {
+    display: inline-block;
+    padding: 3px 0;
+    font-size: 12px;
+    color: #444;
+}
+
+.end_p1{
+    font-size: 12px;
+    color: #444;
+    padding-top: 20px;
+}
+
+.end_p2{
+    font-size: 12px;
+    color: #444;
+    padding-top: 5px;
+}
+
+.copy{
+    font-size: 12px;
+    padding-top: 50px;
+}
+
+.end_logo{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
 
